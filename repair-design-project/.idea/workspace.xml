@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f07b195e-f5bd-49d4-aced-9eee89e22682" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Rgq1YszT0kwbrMWUW6yu93dCaE" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vladi\Desktop\2\assets\img" />
+      <recent name="C:\Users\vladi\Desktop\2\assets\fonts" />
+      <recent name="C:\Users\vladi\Desktop\2\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vladi\Desktop\2\assets\fonts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f07b195e-f5bd-49d4-aced-9eee89e22682" name="Default Changelist" comment="" />
+      <created>1570098871729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570098871729</updated>
+      <workItem from="1570098873245" duration="87800000" />
+      <workItem from="1570457659108" duration="601000" />
+      <workItem from="1570654495827" duration="63994000" />
+      <workItem from="1570949936919" duration="26695000" />
+      <workItem from="1570996189438" duration="7846000" />
+      <workItem from="1571042533449" duration="7874000" />
+      <workItem from="1571065169792" duration="41793000" />
+      <workItem from="1571238076774" duration="32151000" />
+      <workItem from="1571347063218" duration="57570000" />
+      <workItem from="1571549846484" duration="19493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
