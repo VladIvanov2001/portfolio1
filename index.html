@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header__avatar">
+        <img src="images/me.jpg">
+    </div>
+    <div class="header__information">
+        <span>Ivanov Vladislav</span>
+        <a href="https://github.com/VladIvanov2001">My GitHub</a>
+        <a href="https://vk.com/id133323953">My VK</a>
+    </div>
+</div>
+
+<button type="button" class="collapsible">My education</button>
+<div class="content">
+    <ul>
+        <li>2007-2016: Fanipol school</li>
+        <li>2016-2018: Lyceum #1</li>
+        <li>2018-right now: BSU MMF</li>
+    </ul>
+</div>
+
+<div class="mobile" style="display: none; @media (max-width: 640px){display: block}">
+    <button type="button" class="collapsible">Theyalow</button>
+    <div class="content">
+        <ul>
+            <li>Responsive</li>
+            <li>Flexbox</li>
+            <li>Videos input</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="carousel">
+    <div class="items-container">
+        <div class="item active">
+            <div class="description">
+                <div class="project-name">
+                    <span>theyalow</span>
+                    <ul>
+                        <li>Responsive</li>
+                        <li>SVG</li>
+                        <li>PixelPerfect</li>
+                    </ul>                </div>
+
+                <a href="theyalow/index.html"><img class="project-image" src="images/theyalow.png" alt="project"></a>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="description">
+                <div class="project-name">
+                    <span>repair</span>
+                    <ul>
+                        <li>Responsive</li>
+                        <li>Flexbox</li>
+                        <li>Videos input</li>
+                    </ul>
+                </div>
+                <a href="repair-design-project/index.html"><img class="project-image" src="images/repair.png" alt="project"></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="control left">
+        <div class="arrow left">&lt;</div>
+    </div>
+    <div class="control right">
+        <div class="arrow right">&gt;</div>
+    </div>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+
+</body>
