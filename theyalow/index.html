@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Allow</title>
+</head>
+<body>
+<button id="back">Home</button>
+<button id="mobile">Mobile</button>
+<button id="desktop">Desktop</button>
+
+<header>
+        <div class="logo">
+            <img class="icon" alt="icon" src="img/logo.png" title="icon"/>
+            <h1><i>THEYALOW</i></h1>
+        </div>
+        <nav>
+            <div class="nav-menu-item">
+                <img class="person-icon" src="img/personicon.gif" alt="About us">
+                <a href="#">ABOUT US</a>
+            </div>
+            <div class="nav-menu-item">
+                <img class="phone-icon" src="img/phoneicon.gif" alt="Services">
+                <a href="#">SERVICES</a>
+            </div>
+            <div class="nav-menu-item">
+                <img class="contact-icon" src="img/mail.gif" alt="Contact">
+                <a href="#">CONTACT</a>
+            </div>
+        </nav>
+
+</header>
+ <main>
+     <section class="section1">
+
+         <div class="slider">
+
+             <button class="left-arrow">
+                 <img src="img/arrow.gif" alt="Left arrow">
+             </button>
+
+             <div class="slider-content">
+
+                 <video src="#" poster="img/poster.png" width="549" height ="327" controls></video>
+
+                 <div class="slogan">
+                     <p class="cool">THE COOL</p>
+                     <p class="minimal">THE MINIMAL</p>
+                 </div>
+
+             </div>
+
+             <button class="right-arrow">
+                 <img src="img/rightarr.gif" alt="Right arrow">
+             </button>
+
+         </div>
+     </section>
+
+     <section class="section2">
+
+         <div class="icon-area">
+
+             <div class="icon-area-item">
+                 <img class="better-design" src="img/better-design.svg" alt="better design">
+                 <p>BETTER DESIGN</p>
+             </div>
+
+             <div class="icon-area-item">
+                 <img class="customise-icon" src="img/customise.svg" alt="customize">
+                 <p>CUSTOMISE</p>
+             </div>
+
+             <div class="icon-area-item">
+                 <img class="its-free-icon" src="img/its-free.svg" alt="its free">
+                 <p>ITS FREE</p>
+             </div>
+         </div>
+
+     </section>
+     <section class="section3">
+         <span class="text">Lorem ipsum dolor sit amet</span>
+         <div class="date">
+             <span class="number">25</span>
+             <span class="month">APRIL</span>
+         </div>
+
+         <div class="content">
+             <span>Lorem ipsum dolor sit<br> amet, consectetur<br> adipisicing elit, sed do<br> eiusmod tempor inci-<br>didunt ut</span>
+             <img src="img/plus.png" alt="plus" class="plus1"/>
+         </div>
+
+         <div class="play">
+             <img src="img/ellipse.png">
+             <img src="img/player.png">
+         </div>
+
+         <video class="video" src="#" width="315" height="234"  poster="img/poster2.jpg"> </video>
+
+         <div class="twitter">
+             <img src="img/twitter.png" alt="twitter icon" class="twitter-img"/>
+             <img src="img/plus.png" alt="plus" class="plus"/>
+             <span>22</span>
+         </div>
+
+         <div class="bar">
+             <input type="range" value="352" min="0" max="1000">
+         </div>
+
+         <div class="twitter-for-mobile">
+             <img src="img/twitter.png" alt="twitter-icon"/>
+         </div>
+
+         <div class="messenger">
+            <div class="message">
+                <img src="img/twit.png" class="first-message">
+                <span>Daily Mobile UI Design Inspiration #1<br> &nbsp &nbsp &nbsp  via @cssauthor</span>
+            </div>
+             <div class="message"><img src="img/twit.png" class="second-message">
+                 <span>Daily Mobile UI Design Inspiration #1<br> &nbsp &nbsp &nbsp  via @cssauthor</span>
+             </div>
+             <div class="message">
+                 <img src="img/twit.png" class="third-message">
+                 <span>Daily Mobile UI Design Inspiration #1<br>&nbsp &nbsp &nbsp via @cssauthor</span>
+             </div>
+             <input class="field-for-text" type="text" size="26"> <input class="input" type="submit" value="Tweet">
+         </div>
+
+     </section>
+
+
+     <section class="section4">
+        <span class="header-for-section4">Lorem ipsum dolor sit amet</span>
+        <div class="parent">
+         <div class="list">
+             <div class="ellipse">
+                 <span>ITS 100% FREE</span>
+                 <img src="img/ellipse.png">
+             </div>
+             <img src="img/computer.png" alt="computer"/>
+             <img src="img/tablet.png" alt="tablet" class="tablet"/>
+             <img src="img/phone.png" alt="phone" class="phone"/>
+         </div>
+
+         <div class="list">
+                 <ul>
+                     <li>Sed ut perspiciatis unde omnis</li>
+                     <li>Lorem ipsum dolor sit amet, con-<br>&nbsp&nbsp&nbsp&nbsp&nbspsectetur adipisicing</li>
+                     <li>Sed ut perspiciatis unde omnis</li>
+                     <li>Lorem ipsum dolor sit amet, cons-<br>&nbsp&nbsp&nbsp&nbsp&nbspectetur adipisicing</li>
+                 </ul>
+             </div>
+        </div>
+     </section>
+ </main>
+
+ <footer>
+        <img src="img/logo.png">
+        <span>THEYALOW</span>
+ </footer>
+<iframe id="mobile-site" src="index.html" ></iframe>
+
+
+<script>
+    document.getElementById("mobile").addEventListener("click",()=>{
+        document.getElementById("mobile-site").style.position = "fixed";
+        document.getElementById("mobile-site").style.display = "block";
+        document.getElementsByTagName("header")[0].style.display = "none";
+        document.getElementsByTagName("main")[0].style.display = "none";
+        document.getElementsByTagName("footer")[0].style.display = "none";
+        document.getElementsByTagName("body")[0].style.background="none";
+        window.parent.document.getElementById("mobile").style.display = "none";
+        window.parent.document.getElementById("back").style.display = "none";
+    })
+    document.getElementById("desktop").addEventListener("click", () => {
+        window.parent.document.getElementById("mobile-site").style.display = "none";
+        document.getElementsByTagName("body")[0].style.background="#f5c506";
+
+
+        window.parent.document.getElementsByTagName("header")[0].style.display = "flex";
+        window.parent.document.getElementsByTagName("main")[0].style.display = "block";
+        window.parent.document.getElementsByTagName("footer")[0].style.display = "block";
+
+        window.parent.document.getElementById("mobile").style.display = "block";
+        window.parent.document.getElementById("back").style.display = "block";
+    })
+
+    document.getElementById("back").addEventListener("click", () => {
+        window.parent.document.location.href = "../index.html";
+    })
+</script>
+</body>
+
+</html>
